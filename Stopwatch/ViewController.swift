@@ -20,10 +20,10 @@ class ViewController: UIViewController {
     
     @IBAction func start(sender: AnyObject) {
         if !timer.valid {
-            playButton.title = "\u{2016}"
+
             timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("updateTime"), userInfo: nil, repeats: true)
         }else {
-            playButton.title = "\u{25B6}"
+
             timer.invalidate()
         }
     }
