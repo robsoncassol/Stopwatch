@@ -1,2 +1,6 @@
 
 Stopwatch.xcodeproj/project.xcworkspace/xcuserdata/robsoncassol.xcuserdatad/UserInterfaceState.xcuserstate
+
+*.xcuserstate
+
+*.xccheckout
