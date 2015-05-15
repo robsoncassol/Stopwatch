@@ -48,7 +48,7 @@
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="sTh-YL-0CX"/>
-                                    <barButtonItem title="play" id="9VN-bW-Bre">
+                                    <barButtonItem systemItem="play" id="9VN-bW-Bre">
                                         <connections>
                                             <action selector="start:" destination="vXZ-lx-hvc" id="aNw-8c-73h"/>
                                         </connections>
